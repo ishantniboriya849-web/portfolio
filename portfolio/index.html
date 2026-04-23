@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishant | AI & ML Student Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Ishant<span>.</span></a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <h3 class="greeting">Hello there,</h3>
+            <h1 class="heading">Hi, I'm <span>Ishant</span></h1>
+            <h2 class="subheading">AI & ML Student | Tech Enthusiast</h2>
+            <div class="typing-container">
+                <span id="typing-text"></span><span class="cursor">&nbsp;</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="mailto:ishantniboriya849@gmail.com?subject=Portfolio%20Inquiry" class="btn secondary-btn"><i class="fab fa-google"></i> Email Me</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <!-- Using CSS placeholder or abstract shape for image -->
+            <div class="blob-shape"></div>
+            
+            <img src="final_profile_img.png" alt="Ishant" class="profile-hero-img">
+            
+            <div class="floating-icon ai-icon"><i class="fas fa-robot"></i></div>
+            <div class="floating-icon code-icon"><i class="fas fa-code"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <div class="about-image">
+                <div class="glass-img-frame">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+            </div>
+            <div class="about-text-content">
+                <div class="about-text">
+                    <p>Hello! I'm Ishant, an AIML 2B student passionate about diving deep into Artificial Intelligence, Machine Learning, and overall Software Development. I love bridging the gap between complex algorithms and practical, real-world applications.</p>
+                    <p>Throughout my academic journey, I've actively participated in multiple technical and non-technical events, constantly pushing my boundaries, learning new frameworks, and collaborating with fellow tech enthusiasts.</p>
+                    <p>When I'm not coding or training ML models, you can find me exploring the latest tech trends and conceptualizing new projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box glass">
+                        <h3>2+</h3>
+                        <p>Years</p>
+                    </div>
+                    <div class="stat-box glass">
+                        <h3>10+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-box glass">
+                        <h3>5+</h3>
+                        <p>Events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title reveal">My <span>Skills</span></h2>
+        <div class="skills-container inner-width">
+            <div class="skill-category reveal">
+                <h3>Programming & Domains</h3>
+                <div class="skill-bars">
+                    <div class="bar">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-line"><span class="python"></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>Machine Learning (Basics)</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="ml"></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>Java / C++</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-line"><span class="cpp"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <h3>Web Development</h3>
+                <div class="skill-bars">
+                    <div class="bar">
+                        <div class="info">
+                            <span>HTML & CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line"><span class="htmlcss"></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-line"><span class="js"></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>React / Frameworks</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-line"><span class="react"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        <div class="projects-container inner-width">
+            
+            <div class="project-card glass reveal">
+                <div class="project-img">
+                    <i class="fas fa-brain project-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>AI Image Classifier</h3>
+                    <p>A machine learning model built using Python and TensorFlow that accurately classifies images into multiple categories with a clean UI dashboard.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass reveal">
+                <div class="project-img">
+                    <i class="fas fa-laptop-code project-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern, fully responsive personal portfolio featuring dark UI, glassmorphism, and smooth scroll reveal animations built from scratch.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass reveal">
+                <div class="project-img">
+                    <i class="fas fa-chart-line project-icon"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Data Analysis Dashboard</h3>
+                    <p>An interactive web application that visualizes complex datasets, providing insights through charts and dynamic data filtering.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Achievements & Events Section -->
+    <section id="achievements" class="achievements">
+        <h2 class="section-title reveal">Achievements & <span>Events</span></h2>
+        <div class="timeline-container inner-width">
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>Hackathon Finalist</h3>
+                        <span class="date">2023</span>
+                        <p>Reached the final round of a national-level AI hackathon by building a predictive model for environmental changes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>Tech Symposium Presentation</h3>
+                        <span class="date">2023</span>
+                        <p>Delivered a presentation on the ethical implications of Machine Learning algorithms in modern software.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>Coding Bootcamp Organizer</h3>
+                        <span class="date">2022</span>
+                        <p>Helped organize and mentor junior students in an introductory Python and Web Development bootcamp.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <h3>Cultural Fest Coordination</h3>
+                        <span class="date">2022</span>
+                        <p>Managed logistics and team coordination for the annual college non-technical cultural festival.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <div class="contact-container inner-width reveal">
+            <div class="contact-info glass">
+                <h3>Let's Connect!</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <span>ishantniboriya849@gmail.com</span>
+                    </div>
+                    <div class="method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New Delhi, India</span>
+                    </div>
+                </div>
+                <a href="mailto:ishantniboriya849@gmail.com?subject=Portfolio%20Inquiry" class="btn primary-btn gmail-direct-btn">
+                    <i class="fab fa-google"></i> Connect via Gmail
+                </a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/mynetwork/grow/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form glass">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Your Email">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links footer-socials">
+                <a href="https://www.linkedin.com/mynetwork/grow/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2024 Ishant | AIML 2B. All Rights Reserved.</p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Local JS -->
+    <script src="script.js"></script>
+</body>
+</html>
